@@ -1,6 +1,6 @@
 .sectionTres {
-  background: #20c997;
-  border-radius: 0 40% 40% 0;
+  background: #06d6a0;
+  border-radius: 200px;
   text-align: center;
   justify-content: center;
   height: 100%;
@@ -23,6 +23,10 @@
     button a {
       color: white;
       text-decoration: none;
+      transition: 0.2;
+    }
+    button a:hover {
+      color: #073b4c;
     }
   }
   .sectionTres__imagen {
