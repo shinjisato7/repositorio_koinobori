@@ -1,0 +1,17 @@
+.nosotros {
+  .nosotros__titulo {
+    text-align: center;
+  }
+}
+
+.nosotros__cards {
+  .card {
+    .card-body {
+      width: 100%;
+      .card-title {
+        width: 100%;
+        padding: 5%;
+      }
+    }
+  }
+}

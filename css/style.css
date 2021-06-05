@@ -1,0 +1,197 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+h1 {
+  font-family: "Nothing You Could Do", cursive;
+  font-weight: 400;
+  font-size: 95px;
+  line-height: 1.3;
+  color: #272727;
+  text-shadow: 2px 2px 4px #9c9797;
+  text-align: center; }
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 1.5; }
+
+h3 {
+  font-family: "Nothing You Could Do", cursive;
+  font-weight: 400;
+  font-size: 45px; }
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  font-size: 1.5rem; }
+
+.navbar {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem; }
+
+.japones__tercerseccion p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem; }
+
+.japones__tercerseccion span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  font-size: 1.5rem; }
+
+.navbar {
+  background-color: white; }
+
+.sectionUno {
+  background: #0dcaf0;
+  height: 100vh;
+  background-size: cover;
+  border-radius: 0px 300px 300px 0px;
+  border-bottom: white solid 10px;
+  text-align: center;
+  justify-content: center; }
+
+.sectionUno .sectionUno__imagen {
+  height: 100%; }
+  .sectionUno .sectionUno__imagen img {
+    width: 85%;
+    margin: 5% 5% 1% 5%;
+    padding: 5% 5% 1% 5%; }
+
+.sectionUno .sectionUno__texto {
+  height: 100%;
+  padding: 6% 3% 0 5%; }
+  .sectionUno .sectionUno__texto p {
+    color: white;
+    border-radius: 50px;
+    padding: 5% 3% 5% 5%;
+    border: whitesmoke solid 0.5px; }
+  .sectionUno .sectionUno__texto button a {
+    text-decoration: none; }
+
+.sectionDos {
+  background: #dc3545;
+  border-radius: 0 50% 50% 0;
+  border-bottom: white solid 10px;
+  text-align: center;
+  justify-content: center;
+  height: 100%;
+  padding: 5%; }
+  .sectionDos .sectionDos__titulo {
+    padding-bottom: 4%; }
+  .sectionDos .row {
+    justify-content: space-between; }
+    .sectionDos .row .card {
+      border: white;
+      opacity: 0.7; }
+    .sectionDos .row .card img {
+      width: 200px;
+      align-self: center;
+      padding-top: 10%;
+      border: white; }
+
+.sectionTres {
+  background: #20c997;
+  border-radius: 0 40% 40% 0;
+  text-align: center;
+  justify-content: center;
+  height: 100%;
+  padding: 3%; }
+  .sectionTres .sectionTres__titulo {
+    padding-bottom: 3%; }
+  .sectionTres .sectionTres__texto {
+    height: 100%; }
+    .sectionTres .sectionTres__texto h2 {
+      padding-bottom: 3%; }
+    .sectionTres .sectionTres__texto p {
+      color: white;
+      border-radius: 50px;
+      padding: 4%;
+      border: solid white 0.5px; }
+    .sectionTres .sectionTres__texto button a {
+      color: white;
+      text-decoration: none; }
+  .sectionTres .sectionTres__imagen {
+    height: 100%; }
+    .sectionTres .sectionTres__imagen img {
+      width: 70%;
+      margin: 0 2% 10% 5%;
+      padding: 0 2% 10% 5%; }
+
+.darumas .row {
+  justify-content: space-between; }
+  .darumas .row .card img {
+    padding: 5%;
+    align-self: center; }
+  .darumas .row .card .card-body .card-title {
+    text-align: center; }
+  .darumas .row .card .card-body .card-text {
+    font-size: 1rem; }
+
+.darumas__titulo {
+  text-align: center; }
+
+.omamori .row {
+  justify-content: space-between; }
+  .omamori .row .card {
+    margin: 1% 0; }
+  .omamori .row .card-body .card-title {
+    text-align: center; }
+  .omamori .row .card-body .card-text {
+    font-size: 1rem; }
+  .omamori .row .card img {
+    width: 200px;
+    align-self: center;
+    padding-top: 10%;
+    border: white; }
+
+.omamori__titulo {
+  text-align: center; }
+
+.nosotros .nosotros__titulo {
+  text-align: center; }
+
+.nosotros__cards .card .card-body {
+  width: 100%; }
+  .nosotros__cards .card .card-body .card-title {
+    width: 100%;
+    padding: 5%; }
+
+.carousel .carousel-inner .filtro {
+  filter: brightness(60%); }
+
+.btn--facebook {
+  background-color: #3b5998;
+  border-radius: 100px;
+  padding: 10px 20px; }
+
+.btn--linkedin {
+  background-color: #0e76a8;
+  border-radius: 100px;
+  padding: 10px 20px; }
+
+.btn--twitter {
+  background-color: #00acee;
+  border-radius: 100px;
+  padding: 10px 20px; }
+
+.btn--instagram {
+  background-color: #c13584;
+  border-radius: 100px;
+  padding: 10px 20px; }
+
+.btn--youtube {
+  background-color: #c4302b;
+  border-radius: 100px;
+  padding: 10px 20px; }
+
+.btn--email {
+  background-color: #ff9800;
+  border-radius: 100px;
+  padding: 10px 20px; }
+
+.logo_texto--color {
+  color: white; }

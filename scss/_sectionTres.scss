@@ -1,0 +1,36 @@
+.sectionTres {
+  background: #20c997;
+  border-radius: 0 40% 40% 0;
+  text-align: center;
+  justify-content: center;
+  height: 100%;
+  padding: 3%;
+  .sectionTres__titulo {
+    padding-bottom: 3%;
+  }
+  .sectionTres__texto {
+    height: 100%;
+
+    h2 {
+      padding-bottom: 3%;
+    }
+    p {
+      color: white;
+      border-radius: 50px;
+      padding: 4%;
+      border: solid white 0.5px;
+    }
+    button a {
+      color: white;
+      text-decoration: none;
+    }
+  }
+  .sectionTres__imagen {
+    height: 100%;
+    img {
+      width: 70%;
+      margin: 0 2% 10% 5%;
+      padding: 0 2% 10% 5%;
+    }
+  }
+}

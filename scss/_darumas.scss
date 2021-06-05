@@ -1,0 +1,23 @@
+.darumas {
+  .row {
+    justify-content: space-between;
+    .card {
+      img {
+        padding: 5%;
+        align-self: center;
+      }
+      .card-body {
+        .card-title {
+          text-align: center;
+        }
+        .card-text {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+}
+
+.darumas__titulo {
+  text-align: center;
+}

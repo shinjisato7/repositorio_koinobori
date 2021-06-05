@@ -1,0 +1,26 @@
+.omamori {
+  .row {
+    justify-content: space-between;
+    .card {
+      margin: 1% 0;
+    }
+
+    .card-body {
+      .card-title {
+        text-align: center;
+      }
+      .card-text {
+        font-size: 1rem;
+      }
+    }
+    .card img {
+      width: 200px;
+      align-self: center;
+      padding-top: 10%;
+      border: white;
+    }
+  }
+}
+.omamori__titulo {
+  text-align: center;
+}

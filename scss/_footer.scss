@@ -1,0 +1,20 @@
+$redes: (
+  facebook: #3b5998,
+  linkedin: #0e76a8,
+  twitter: #00acee,
+  instagram: #c13584,
+  youtube: #c4302b,
+  email: #ff9800,
+);
+
+@each $logo, $color in $redes {
+  .btn--#{$logo} {
+    background-color: $color;
+    border-radius: 100px;
+    padding: 10px 20px;
+  }
+}
+
+.logo_texto--color {
+  color: white;
+}
