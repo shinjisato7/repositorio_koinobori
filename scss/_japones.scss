@@ -1,0 +1,37 @@
+.japones__titulo {
+  text-align: center;
+  padding-top: 3%;
+}
+.japonesUno {
+  margin: 5% 0;
+  .japonesUno__titulo {
+    padding: 5% 0;
+  }
+  .japonesUno__imagen {
+    padding: 5%;
+  }
+}
+
+.japonesDos {
+  margin: 5% 0;
+  height: 100%;
+  .japonesDos__url {
+    height: 70vh;
+  }
+  .japonesDos__texto {
+    text-align: right;
+    .japonesDos__titulo {
+      padding: 5% 0;
+    }
+  }
+}
+
+.japonesTres {
+  margin: 5% 0;
+  .japonesTres__titulo {
+    padding: 5% 0;
+  }
+  .japonesTres__imagen {
+    padding: 5%;
+  }
+}

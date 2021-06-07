@@ -47,89 +47,86 @@ p {
 
 .sectionUno {
   background: #118ab2;
-  height: 100vh;
-  background-size: cover;
   border-radius: 200px;
+  height: 100%;
+  width: 100%;
+  padding: 5%;
+  margin: 2% 0;
   border-bottom: white solid 10px;
   text-align: center;
   justify-content: center; }
-
-.sectionUno .sectionUno__imagen {
-  height: 100%; }
-  .sectionUno .sectionUno__imagen img {
-    width: 85%;
-    margin: 5% 5% 1% 5%;
-    padding: 5% 5% 1% 5%; }
-
-.sectionUno .sectionUno__texto {
-  height: 100%;
-  padding: 6% 3% 0 5%; }
-  .sectionUno .sectionUno__texto p {
-    color: white;
-    border-radius: 50px;
-    padding: 5% 3% 5% 5%;
-    border: whitesmoke solid 0.5px; }
-  .sectionUno .sectionUno__texto button a {
-    text-decoration: none;
-    color: white;
-    transition: 0.2; }
-  .sectionUno .sectionUno__texto button a:hover {
-    color: #073b4c; }
+  .sectionUno .sectionUno__imagen {
+    height: 100%; }
+    .sectionUno .sectionUno__imagen img {
+      width: 85%; }
+  .sectionUno .sectionUno__texto {
+    height: 100%;
+    padding: 2% 3% 0 5%; }
+    .sectionUno .sectionUno__texto p {
+      color: white;
+      border-radius: 50px;
+      padding: 5%;
+      border: whitesmoke solid 0.5px; }
+    .sectionUno .sectionUno__texto button a {
+      text-decoration: none;
+      color: white; }
 
 .sectionDos {
   background: #ef476f;
   border-radius: 200px;
-  border-bottom: white solid 10px;
-  text-align: center;
-  justify-content: center;
   height: 100%;
-  padding: 5%; }
-  .sectionDos .sectionDos__titulo {
-    padding-bottom: 4%; }
-  .sectionDos .row {
-    justify-content: space-between; }
-    .sectionDos .row .card {
-      border: white; }
-    .sectionDos .row .card img {
-      width: 200px;
-      align-self: center;
-      padding-top: 10%;
-      border: white; }
-    .sectionDos .row .card-body a {
-      transition: 0.2s; }
-    .sectionDos .row .card-body a:hover {
-      color: #073b4c; }
+  width: 100%;
+  padding: 5% 5%;
+  margin: 5% 0;
+  text-align: center;
+  justify-content: center; }
+  .sectionDos .sectionDos__texto {
+    height: 100%;
+    padding: 0% 3% 0 3%; }
+    .sectionDos .sectionDos__texto .sectionDos__titulo {
+      padding-bottom: 2%; }
+    .sectionDos .sectionDos__texto p {
+      color: white;
+      border-radius: 50px;
+      padding: 5%;
+      border: solid white 0.5px; }
+    .sectionDos .sectionDos__texto .sectionDos__boton {
+      padding-top: 4%; }
+      .sectionDos .sectionDos__texto .sectionDos__boton button a {
+        color: white;
+        text-decoration: none; }
+  .sectionDos .sectionDos__imagen {
+    height: 65vh; }
+    .sectionDos .sectionDos__imagen img {
+      padding: 5% 0;
+      height: 100%; }
 
 .sectionTres {
   background: #06d6a0;
   border-radius: 200px;
-  text-align: center;
-  justify-content: center;
   height: 100%;
-  padding: 3%; }
-  .sectionTres .sectionTres__titulo {
-    padding-bottom: 3%; }
-  .sectionTres .sectionTres__texto {
+  width: 100%;
+  padding: 5%;
+  margin: 5% 0;
+  text-align: center;
+  justify-content: center; }
+  .sectionTres .sectionTres__imagen {
     height: 100%; }
-    .sectionTres .sectionTres__texto h2 {
+    .sectionTres .sectionTres__imagen img {
+      width: 80%; }
+  .sectionTres .sectionTres__texto {
+    height: 100%;
+    padding: 2% 3% 0 5%; }
+    .sectionTres .sectionTres__texto .sectionTres__titulo {
       padding-bottom: 3%; }
     .sectionTres .sectionTres__texto p {
       color: white;
       border-radius: 50px;
-      padding: 4%;
+      padding: 5%;
       border: solid white 0.5px; }
     .sectionTres .sectionTres__texto button a {
       color: white;
-      text-decoration: none;
-      transition: 0.2; }
-    .sectionTres .sectionTres__texto button a:hover {
-      color: #073b4c; }
-  .sectionTres .sectionTres__imagen {
-    height: 100%; }
-    .sectionTres .sectionTres__imagen img {
-      width: 70%;
-      margin: 0 2% 10% 5%;
-      padding: 0 2% 10% 5%; }
+      text-decoration: none; }
 
 .darumas .row {
   justify-content: space-between; }
@@ -161,14 +158,50 @@ p {
 .omamori__titulo {
   text-align: center; }
 
+.japones__titulo {
+  text-align: center;
+  padding-top: 3%; }
+
+.japonesUno {
+  margin: 5% 0; }
+  .japonesUno .japonesUno__titulo {
+    padding: 5% 0; }
+  .japonesUno .japonesUno__imagen {
+    padding: 5%; }
+
+.japonesDos {
+  margin: 5% 0;
+  height: 100%; }
+  .japonesDos .japonesDos__url {
+    height: 70vh; }
+  .japonesDos .japonesDos__texto {
+    text-align: right; }
+    .japonesDos .japonesDos__texto .japonesDos__titulo {
+      padding: 5% 0; }
+
+.japonesTres {
+  margin: 5% 0; }
+  .japonesTres .japonesTres__titulo {
+    padding: 5% 0; }
+  .japonesTres .japonesTres__imagen {
+    padding: 5%; }
+
 .nosotros .nosotros__titulo {
   text-align: center; }
 
-.nosotros__cards .card .card-body {
-  width: 100%; }
-  .nosotros__cards .card .card-body .card-title {
-    width: 100%;
-    padding: 5%; }
+.nosotros__cards {
+  width: 80%; }
+  .nosotros__cards .col {
+    padding: 5% 2%; }
+    .nosotros__cards .col .card {
+      width: 100%; }
+      .nosotros__cards .col .card .card-body {
+        width: 100%; }
+        .nosotros__cards .col .card .card-body .card-title {
+          width: 100%;
+          padding: 5%; }
+        .nosotros__cards .col .card .card-body .card-text {
+          font-size: 1.3rem; }
 
 .carousel .carousel-inner .filtro {
   filter: brightness(60%); }
@@ -209,7 +242,10 @@ p {
 .btn-primary {
   background-color: #073b4c;
   border: #073b4c;
-  transition: background-color 0.2s; }
+  transition: background-color 0.2s;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  font-size: 0.5 rem; }
 
 .btn-primary:hover {
   background-color: #ffd166; }

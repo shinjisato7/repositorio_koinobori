@@ -5,12 +5,21 @@
 }
 
 .nosotros__cards {
-  .card {
-    .card-body {
+  // padding: 5% 0 5% 0;
+  width: 80%;
+  .col {
+    padding: 5% 2%;
+    .card {
       width: 100%;
-      .card-title {
+      .card-body {
         width: 100%;
-        padding: 5%;
+        .card-title {
+          width: 100%;
+          padding: 5%;
+        }
+        .card-text {
+          font-size: 1.3rem;
+        }
       }
     }
   }
