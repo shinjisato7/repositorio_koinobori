@@ -47,7 +47,7 @@ p {
 
 .sectionUno {
   background: #118ab2;
-  border-radius: 200px;
+  border-radius: 300px 0 0 300px;
   height: 100%;
   width: 100%;
   padding: 5%;
@@ -73,7 +73,7 @@ p {
 
 .sectionDos {
   background: #ef476f;
-  border-radius: 200px;
+  border-radius: 0 300px 300px 0;
   height: 100%;
   width: 100%;
   padding: 5% 5%;
@@ -103,7 +103,7 @@ p {
 
 .sectionTres {
   background: #06d6a0;
-  border-radius: 200px;
+  border-radius: 300px 0 0 300px;
   height: 100%;
   width: 100%;
   padding: 5%;
