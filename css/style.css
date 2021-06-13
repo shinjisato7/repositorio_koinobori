@@ -136,22 +136,25 @@ p {
       text-decoration: none; }
 
 .darumas .row {
-  justify-content: space-between; }
-  .darumas .row .card img {
-    padding: 5%;
-    align-self: center; }
-  .darumas .row .card .card-body .card-title {
-    text-align: center; }
-  .darumas .row .card .card-body .card-text {
-    font-size: 1rem; }
+  justify-content: center; }
+  .darumas .row .card {
+    margin: 20px; }
+    .darumas .row .card img {
+      padding: 5%;
+      align-self: center; }
+    .darumas .row .card .card-body .card-title {
+      text-align: center; }
+    .darumas .row .card .card-body .card-text {
+      font-size: 1rem; }
 
 .darumas__titulo {
-  text-align: center; }
+  text-align: center;
+  margin: 0 0 45px 0; }
 
 .omamori .row {
-  justify-content: space-between; }
+  justify-content: center; }
   .omamori .row .card {
-    margin: 1% 0; }
+    margin: 20px; }
   .omamori .row .card-body .card-title {
     text-align: center; }
   .omamori .row .card-body .card-text {
@@ -236,6 +239,9 @@ p {
 .btn--email {
   background-color: #ff9800;
   border-radius: 100px; }
+
+footer {
+  margin: 100px 0 0 0; }
 
 .logo_texto--color {
   color: white; }

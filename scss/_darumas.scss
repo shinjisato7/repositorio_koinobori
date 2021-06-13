@@ -1,7 +1,9 @@
 .darumas {
   .row {
-    justify-content: space-between;
+    justify-content: center;
+
     .card {
+      margin: 20px;
       img {
         padding: 5%;
         align-self: center;
@@ -20,4 +22,5 @@
 
 .darumas__titulo {
   text-align: center;
+  margin: 0 0 45px 0;
 }
