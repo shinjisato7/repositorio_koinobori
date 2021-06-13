@@ -145,7 +145,8 @@ p {
     .darumas .row .card .card-body .card-title {
       text-align: center; }
     .darumas .row .card .card-body .card-text {
-      font-size: 1rem; }
+      font-size: 1rem;
+      height: 100px; }
 
 .darumas__titulo {
   text-align: center;
@@ -155,15 +156,15 @@ p {
   justify-content: center; }
   .omamori .row .card {
     margin: 20px; }
-  .omamori .row .card-body .card-title {
-    text-align: center; }
-  .omamori .row .card-body .card-text {
-    font-size: 1rem; }
-  .omamori .row .card img {
-    width: 200px;
-    align-self: center;
-    padding-top: 10%;
-    border: white; }
+    .omamori .row .card img {
+      width: 200px;
+      align-self: center;
+      padding-top: 10%; }
+    .omamori .row .card .card-body .card-title {
+      text-align: center; }
+    .omamori .row .card .card-body .card-text {
+      font-size: 1rem;
+      height: 125px; }
 
 .omamori__titulo {
   text-align: center; }
