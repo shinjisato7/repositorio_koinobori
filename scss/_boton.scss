@@ -1,6 +1,6 @@
 .btn-primary {
   background-color: #073b4c;
-  border: #073b4c;
+  border: solid 2px #062f3d;
   transition: background-color 0.2s;
   font-family: "Montserrat", sans-serif;
   font-weight: 200;
@@ -8,7 +8,8 @@
 }
 
 .btn-primary:hover {
-  background-color: #ffd166;
+  border: 2px solid #05a379;
+  background-color: #06d6a0;
 }
 .sectionUno a {
   color: black;

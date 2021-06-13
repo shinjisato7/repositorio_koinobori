@@ -1,0 +1,22 @@
+.error {
+  background-image: url(../imagenes/404error2.jpg);
+  background-size: cover;
+  width: 98.9vw;
+  height: 100vh;
+
+  .error__texto {
+    color: white;
+    .error__titulo {
+      padding: 4% 0 0% 4%;
+      h1 {
+        color: white;
+        font-family: Montserrat, sans-serif;
+        font-weight: 600;
+        text-align: left;
+      }
+    }
+    .error__subtitulo {
+      padding: 0 0 2% 4%;
+    }
+  }
+}

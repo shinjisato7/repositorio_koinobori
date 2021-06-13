@@ -1,14 +1,12 @@
 .japones__titulo {
   text-align: center;
-  padding-top: 3%;
 }
 .japonesUno {
-  margin: 5% 0;
-  .japonesUno__titulo {
-    padding: 5% 0;
-  }
-  .japonesUno__imagen {
-    padding: 5%;
+  margin: 3% 0;
+  .japonesUno__texto {
+    .japonesUno__titulo {
+      padding: 2% 0 5% 0;
+    }
   }
 }
 
@@ -28,10 +26,13 @@
 
 .japonesTres {
   margin: 5% 0;
-  .japonesTres__titulo {
-    padding: 5% 0;
+  .japonesTres__texto {
+    padding: 0 3% 0 0;
+    .japonesTres__titulo {
+      padding: 5% 0;
+    }
   }
   .japonesTres__imagen {
-    padding: 5%;
+    padding: 1%;
   }
 }

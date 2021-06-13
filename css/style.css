@@ -22,6 +22,10 @@ h3 {
   font-weight: 400;
   font-size: 45px; }
 
+h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200, bold; }
+
 p {
   font-family: "Montserrat", sans-serif;
   font-weight: 200;
@@ -161,7 +165,8 @@ p {
       align-self: center;
       padding-top: 10%; }
     .omamori .row .card .card-body .card-title {
-      text-align: center; }
+      text-align: center;
+      margin-bottom: 15px; }
     .omamori .row .card .card-body .card-text {
       font-size: 1rem;
       height: 125px; }
@@ -170,15 +175,12 @@ p {
   text-align: center; }
 
 .japones__titulo {
-  text-align: center;
-  padding-top: 3%; }
+  text-align: center; }
 
 .japonesUno {
-  margin: 5% 0; }
-  .japonesUno .japonesUno__titulo {
-    padding: 5% 0; }
-  .japonesUno .japonesUno__imagen {
-    padding: 5%; }
+  margin: 3% 0; }
+  .japonesUno .japonesUno__texto .japonesUno__titulo {
+    padding: 2% 0 5% 0; }
 
 .japonesDos {
   margin: 5% 0;
@@ -192,10 +194,12 @@ p {
 
 .japonesTres {
   margin: 5% 0; }
-  .japonesTres .japonesTres__titulo {
-    padding: 5% 0; }
+  .japonesTres .japonesTres__texto {
+    padding: 0 3% 0 0; }
+    .japonesTres .japonesTres__texto .japonesTres__titulo {
+      padding: 5% 0; }
   .japonesTres .japonesTres__imagen {
-    padding: 5%; }
+    padding: 1%; }
 
 .nosotros .nosotros__titulo {
   text-align: center; }
@@ -212,10 +216,25 @@ p {
           width: 100%;
           padding: 5%; }
         .nosotros__cards .col .card .card-body .card-text {
-          font-size: 1.3rem; }
+          font-size: 1.3rem;
+          padding: 2% 4% 4% 4%; }
 
-.carousel .carousel-inner .filtro {
-  filter: brightness(60%); }
+.viajes__titulo {
+  margin-bottom: 4%; }
+
+.carousel {
+  width: 80vw; }
+  .carousel .carousel-inner .filtro {
+    filter: brightness(60%); }
+
+.becas {
+  margin: 100px; }
+  .becas .becas__texto {
+    padding: 5%; }
+
+.contacto .contacto__titulo {
+  text-align: center;
+  margin-bottom: 4%; }
 
 .btn--facebook {
   background-color: #3b5998;
@@ -263,14 +282,15 @@ footer {
 
 .btn-primary {
   background-color: #073b4c;
-  border: #073b4c;
+  border: solid 2px #062f3d;
   transition: background-color 0.2s;
   font-family: "Montserrat", sans-serif;
   font-weight: 200;
   font-size: 0.5 rem; }
 
 .btn-primary:hover {
-  background-color: #ffd166; }
+  border: 2px solid #05a379;
+  background-color: #06d6a0; }
 
 .sectionUno a {
   color: black;
@@ -278,3 +298,20 @@ footer {
 
 main a:hover {
   color: black; }
+
+.error {
+  background-image: url(../imagenes/404error2.jpg);
+  background-size: cover;
+  width: 98.9vw;
+  height: 100vh; }
+  .error .error__texto {
+    color: white; }
+    .error .error__texto .error__titulo {
+      padding: 4% 0 0% 4%; }
+      .error .error__texto .error__titulo h1 {
+        color: white;
+        font-family: Montserrat, sans-serif;
+        font-weight: 600;
+        text-align: left; }
+    .error .error__texto .error__subtitulo {
+      padding: 0 0 2% 4%; }
