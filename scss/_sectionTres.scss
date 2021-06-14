@@ -10,6 +10,7 @@
 
   .sectionTres__imagen {
     height: 100%;
+    align-self: center;
     img {
       width: 80%;
     }
@@ -17,15 +18,12 @@
   .sectionTres__texto {
     height: 100%;
     padding: 0% 3% 0 5%;
-
     h1 {
       color: white;
     }
-
     .sectionTres__titulo {
       padding-bottom: 3%;
     }
-
     p {
       color: white;
       border-radius: 50px;

@@ -10,7 +10,7 @@ $redes: (
 @each $logo, $color in $redes {
   .btn--#{$logo} {
     background-color: $color;
-    border-radius: 100px;
+    border-radius: 65px;
   }
 }
 
