@@ -72,7 +72,8 @@ p {
       color: white;
       border-radius: 50px;
       padding: 5%;
-      border: whitesmoke solid 0.5px; }
+      border: whitesmoke solid 0.5px;
+      margin-bottom: 40px; }
     .sectionUno .sectionUno__texto button a {
       text-decoration: none;
       color: white; }
@@ -104,7 +105,7 @@ p {
         color: white;
         text-decoration: none; }
   .sectionDos .sectionDos__imagen {
-    height: 65vh; }
+    height: 100%; }
     .sectionDos .sectionDos__imagen img {
       padding: 5% 0;
       height: 100%;
@@ -125,7 +126,7 @@ p {
       width: 80%; }
   .sectionTres .sectionTres__texto {
     height: 100%;
-    padding: 2% 3% 0 5%; }
+    padding: 0% 3% 0 5%; }
     .sectionTres .sectionTres__texto h1 {
       color: white; }
     .sectionTres .sectionTres__texto .sectionTres__titulo {
@@ -134,7 +135,8 @@ p {
       color: white;
       border-radius: 50px;
       padding: 5%;
-      border: solid white 0.5px; }
+      border: solid white 0.5px;
+      margin-bottom: 40px; }
     .sectionTres .sectionTres__texto button a {
       color: white;
       text-decoration: none; }
