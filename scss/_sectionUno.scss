@@ -5,9 +5,9 @@
   width: 100%;
   padding: 5%;
   margin: 2% 0;
-  border-bottom: white solid 10px;
   text-align: center;
   justify-content: center;
+  box-shadow: 0 0 7px 5px rgb(10, 47, 88);
 
   .sectionUno__imagen {
     height: 100%;
@@ -22,6 +22,7 @@
 
     h1 {
       color: white;
+      text-shadow: 1px 1px 2px rgb(46, 45, 45);
     }
 
     p {
@@ -30,6 +31,7 @@
       padding: 5%;
       border: whitesmoke solid 0.5px;
       margin-bottom: 40px;
+      box-shadow: 0 5px 5px 2px rgba(58, 58, 58, 0.555);
     }
     button a {
       text-decoration: none;

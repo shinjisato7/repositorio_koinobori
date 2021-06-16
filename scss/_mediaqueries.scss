@@ -23,6 +23,23 @@
       }
     }
   }
+
+  .sectionDos {
+    .sectionDos__texto {
+      order: 2;
+      h1 {
+        padding-top: 0;
+        margin-top: 0;
+      }
+    }
+    .sectionDos__imagen {
+      order: 1;
+      img {
+        padding: 2% 0;
+      }
+    }
+  }
+
   .sectionTres {
     .sectionTres__imagen {
       height: 100%;

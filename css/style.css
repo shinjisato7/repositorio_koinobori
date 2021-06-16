@@ -56,9 +56,9 @@ p {
   width: 100%;
   padding: 5%;
   margin: 2% 0;
-  border-bottom: white solid 10px;
   text-align: center;
-  justify-content: center; }
+  justify-content: center;
+  box-shadow: 0 0 7px 5px #0a2f58; }
   .sectionUno .sectionUno__imagen {
     height: 100%;
     align-self: center; }
@@ -68,13 +68,15 @@ p {
     height: 100%;
     padding: 2% 3% 0 5%; }
     .sectionUno .sectionUno__texto h1 {
-      color: white; }
+      color: white;
+      text-shadow: 1px 1px 2px #2e2d2d; }
     .sectionUno .sectionUno__texto p {
       color: white;
       border-radius: 50px;
       padding: 5%;
       border: whitesmoke solid 0.5px;
-      margin-bottom: 40px; }
+      margin-bottom: 40px;
+      box-shadow: 0 5px 5px 2px rgba(58, 58, 58, 0.555); }
     .sectionUno .sectionUno__texto button a {
       text-decoration: none;
       color: white; }
@@ -87,19 +89,22 @@ p {
   padding: 5% 5%;
   margin: 5% 0;
   text-align: center;
-  justify-content: center; }
+  justify-content: center;
+  box-shadow: 0px 5px 7px 0px #471111; }
   .sectionDos .sectionDos__texto {
     height: 100%;
     padding: 0% 3% 0 3%; }
     .sectionDos .sectionDos__texto .sectionDos__titulo {
       padding-bottom: 2%; }
       .sectionDos .sectionDos__texto .sectionDos__titulo h1 {
-        color: white; }
+        color: white;
+        text-shadow: 1px 1px 2px #2e2d2d; }
     .sectionDos .sectionDos__texto p {
       color: white;
       border-radius: 50px;
       padding: 5%;
-      border: solid white 0.5px; }
+      border: solid white 0.5px;
+      box-shadow: 0 5px 5px 2px rgba(58, 58, 58, 0.555); }
     .sectionDos .sectionDos__texto .sectionDos__boton {
       padding-top: 4%; }
       .sectionDos .sectionDos__texto .sectionDos__boton button a {
@@ -120,7 +125,8 @@ p {
   padding: 5%;
   margin: 5% 0;
   text-align: center;
-  justify-content: center; }
+  justify-content: center;
+  box-shadow: 0 5px 7px 0 #04572d; }
   .sectionTres .sectionTres__imagen {
     height: 100%;
     align-self: center; }
@@ -130,7 +136,8 @@ p {
     height: 100%;
     padding: 0% 3% 0 5%; }
     .sectionTres .sectionTres__texto h1 {
-      color: white; }
+      color: white;
+      text-shadow: 1px 1px 2px #2e2d2d; }
     .sectionTres .sectionTres__texto .sectionTres__titulo {
       padding-bottom: 3%; }
     .sectionTres .sectionTres__texto p {
@@ -138,7 +145,8 @@ p {
       border-radius: 50px;
       padding: 5%;
       border: solid white 0.5px;
-      margin-bottom: 40px; }
+      margin-bottom: 40px;
+      box-shadow: 0 5px 5px 2px rgba(58, 58, 58, 0.555); }
     .sectionTres .sectionTres__texto button a {
       color: white;
       text-decoration: none; }
@@ -290,7 +298,8 @@ footer {
   transition: background-color 0.2s;
   font-family: "Montserrat", sans-serif;
   font-weight: 200;
-  font-size: 0.5 rem; }
+  font-size: 0.5 rem;
+  box-shadow: 2px 2px 6px 0 black; }
 
 .btn-primary:hover {
   border: 2px solid #05a379;
@@ -329,6 +338,15 @@ main a:hover {
 @media only screen and (max-width: 768px) {
   .sectionUno .sectionUno__imagen img {
     width: 60%; }
+  .sectionDos .sectionDos__texto {
+    order: 2; }
+    .sectionDos .sectionDos__texto h1 {
+      padding-top: 0;
+      margin-top: 0; }
+  .sectionDos .sectionDos__imagen {
+    order: 1; }
+    .sectionDos .sectionDos__imagen img {
+      padding: 2% 0; }
   .sectionTres .sectionTres__imagen {
     height: 100%;
     align-self: center; }
