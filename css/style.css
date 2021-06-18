@@ -58,7 +58,7 @@ p {
   margin: 2% 0;
   text-align: center;
   justify-content: center;
-  box-shadow: 0 0 7px 5px #0a2f58; }
+  box-shadow: 0 5px 7px 0 #0a2f58; }
   .sectionUno .sectionUno__imagen {
     height: 100%;
     align-self: center; }
@@ -83,10 +83,10 @@ p {
 
 .sectionDos {
   background: #ef476f;
-  border-radius: 0 300px 300px 0;
+  border-radius: 300px;
   height: 100%;
   width: 100%;
-  padding: 5% 5%;
+  padding: 5% 2%;
   margin: 5% 0;
   text-align: center;
   justify-content: center;
@@ -119,11 +119,11 @@ p {
 
 .sectionTres {
   background: #06d6a0;
-  border-radius: 300px 0 0 300px;
+  border-radius: 0 300px 300px 0;
   height: 100%;
   width: 100%;
   padding: 5%;
-  margin: 5% 0;
+  margin: 2% 0;
   text-align: center;
   justify-content: center;
   box-shadow: 0 5px 7px 0 #04572d; }
@@ -295,15 +295,26 @@ footer {
 .btn-primary {
   background-color: #073b4c;
   border: solid 2px #062f3d;
-  transition: background-color 0.2s;
+  transition: background-color 0.1s;
   font-family: "Montserrat", sans-serif;
   font-weight: 200;
   font-size: 0.5 rem;
-  box-shadow: 2px 2px 6px 0 black; }
+  box-shadow: 1px 1px 3px 0 black; }
 
 .btn-primary:hover {
-  border: 2px solid #05a379;
+  border: 2px solid #06d69e8e;
   background-color: #06d6a0; }
+
+.btn-secondary {
+  transition: background-color 0.1s;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  font-size: 0.5 rem;
+  box-shadow: 1px 1px 3px 0 black; }
+
+.btn-secondary:hover {
+  border: 2px solid #ec7f197a;
+  background-color: #ec7f19; }
 
 .sectionUno a {
   color: black;

@@ -1,17 +1,30 @@
 .btn-primary {
   background-color: #073b4c;
   border: solid 2px #062f3d;
-  transition: background-color 0.2s;
+  transition: background-color 0.1s;
   font-family: "Montserrat", sans-serif;
   font-weight: 200;
   font-size: 0.5 rem;
-  box-shadow: 2px 2px 6px 0 black;
+  box-shadow: 1px 1px 3px 0 black;
 }
 
 .btn-primary:hover {
-  border: 2px solid #05a379;
+  border: 2px solid #06d69e8e;
   background-color: #06d6a0;
 }
+
+.btn-secondary {
+  transition: background-color 0.1s;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  font-size: 0.5 rem;
+  box-shadow: 1px 1px 3px 0 black;
+}
+.btn-secondary:hover {
+  border: 2px solid #ec7f197a;
+  background-color: #ec7f19;
+}
+
 .sectionUno a {
   color: black;
   transition: 0.5s;
