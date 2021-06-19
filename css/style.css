@@ -221,7 +221,8 @@ p {
   .nosotros__cards .col {
     padding: 5% 2%; }
     .nosotros__cards .col .card {
-      width: 100%; }
+      width: 100%;
+      border: solid 1px #fa3131; }
       .nosotros__cards .col .card .card-body {
         width: 100%; }
         .nosotros__cards .col .card .card-body .card-title {
@@ -243,6 +244,9 @@ p {
   margin: 100px; }
   .becas .becas__texto {
     padding: 5%; }
+    .becas .becas__texto .becas__texto-pregunta {
+      font-weight: bold;
+      color: #ef476f; }
 
 .contacto .contacto__titulo {
   text-align: center;
