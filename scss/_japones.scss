@@ -1,6 +1,9 @@
 .japones__titulo {
   text-align: center;
 }
+.japones__grid {
+  padding: 3% 3% 0 3%;
+}
 .japonesUno {
   margin: 3% 0;
   .japonesUno__texto {
@@ -14,7 +17,14 @@
   margin: 5% 0;
   height: 100%;
   .japonesDos__url {
-    height: 70vh;
+    .japonesDos__url-caja {
+      width: 100%;
+      height: 50vh;
+      .japonesDos__url-content {
+        width: 100%;
+        height: 100%;
+      }
+    }
   }
   .japonesDos__texto {
     text-align: right;
@@ -30,6 +40,9 @@
     padding: 0 3% 0 0;
     .japonesTres__titulo {
       padding: 5% 0;
+    }
+    .japonesTres__subtitulo {
+      color: #fa3131;
     }
   }
   .japonesTres__imagen {

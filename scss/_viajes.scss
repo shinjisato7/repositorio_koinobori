@@ -3,18 +3,31 @@
 }
 .carousel {
   width: 80vw;
+  margin-bottom: 3%;
   .carousel-inner .filtro {
     filter: brightness(60%);
   }
 }
 
-.becas {
-  margin: 100px;
-  .becas__texto {
-    padding: 5%;
-    .becas__texto-pregunta {
-      font-weight: bold;
-      color: #ef476f;
+.becas__caja {
+  margin-top: 5%;
+  .becas__caja-row {
+    display: flex;
+    justify-content: space-evenly;
+    .becas__imagen {
+      width: 30%;
+      img {
+        width: 100%;
+      }
+    }
+    .becas__texto {
+      text-align: center;
+      // padding-top: 3%;
+
+      .becas__texto-pregunta {
+        font-weight: bold;
+        color: #ef476f;
+      }
     }
   }
 }

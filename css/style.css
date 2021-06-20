@@ -86,11 +86,18 @@ p {
   border-radius: 300px;
   height: 100%;
   width: 100%;
-  padding: 5% 2%;
+  padding: 5% 5%;
   margin: 5% 0;
   text-align: center;
   justify-content: center;
   box-shadow: 0px 5px 7px 0px #471111; }
+  .sectionDos .sectionDos__imagen {
+    height: 100%;
+    align-self: center; }
+    .sectionDos .sectionDos__imagen img {
+      padding-right: 5%;
+      width: 90%;
+      border-radius: 80px; }
   .sectionDos .sectionDos__texto {
     height: 100%;
     padding: 0% 3% 0 3%; }
@@ -110,12 +117,6 @@ p {
       .sectionDos .sectionDos__texto .sectionDos__boton button a {
         color: white;
         text-decoration: none; }
-  .sectionDos .sectionDos__imagen {
-    height: 100%; }
-    .sectionDos .sectionDos__imagen img {
-      padding: 5% 0;
-      height: 100%;
-      border-radius: 80px; }
 
 .sectionTres {
   background: #06d6a0;
@@ -189,6 +190,9 @@ p {
 .japones__titulo {
   text-align: center; }
 
+.japones__grid {
+  padding: 3% 3% 0 3%; }
+
 .japonesUno {
   margin: 3% 0; }
   .japonesUno .japonesUno__texto .japonesUno__titulo {
@@ -197,8 +201,12 @@ p {
 .japonesDos {
   margin: 5% 0;
   height: 100%; }
-  .japonesDos .japonesDos__url {
-    height: 70vh; }
+  .japonesDos .japonesDos__url .japonesDos__url-caja {
+    width: 100%;
+    height: 50vh; }
+    .japonesDos .japonesDos__url .japonesDos__url-caja .japonesDos__url-content {
+      width: 100%;
+      height: 100%; }
   .japonesDos .japonesDos__texto {
     text-align: right; }
     .japonesDos .japonesDos__texto .japonesDos__titulo {
@@ -210,11 +218,16 @@ p {
     padding: 0 3% 0 0; }
     .japonesTres .japonesTres__texto .japonesTres__titulo {
       padding: 5% 0; }
+    .japonesTres .japonesTres__texto .japonesTres__subtitulo {
+      color: #fa3131; }
   .japonesTres .japonesTres__imagen {
     padding: 1%; }
 
 .nosotros .nosotros__titulo {
   text-align: center; }
+
+.nosotros .nosotros__subtitulo {
+  color: #fa3131; }
 
 .nosotros__cards {
   width: 80%; }
@@ -236,17 +249,25 @@ p {
   margin-bottom: 4%; }
 
 .carousel {
-  width: 80vw; }
+  width: 80vw;
+  margin-bottom: 3%; }
   .carousel .carousel-inner .filtro {
     filter: brightness(60%); }
 
-.becas {
-  margin: 100px; }
-  .becas .becas__texto {
-    padding: 5%; }
-    .becas .becas__texto .becas__texto-pregunta {
-      font-weight: bold;
-      color: #ef476f; }
+.becas__caja {
+  margin-top: 5%; }
+  .becas__caja .becas__caja-row {
+    display: flex;
+    justify-content: space-evenly; }
+    .becas__caja .becas__caja-row .becas__imagen {
+      width: 30%; }
+      .becas__caja .becas__caja-row .becas__imagen img {
+        width: 100%; }
+    .becas__caja .becas__caja-row .becas__texto {
+      text-align: center; }
+      .becas__caja .becas__caja-row .becas__texto .becas__texto-pregunta {
+        font-weight: bold;
+        color: #ef476f; }
 
 .contacto .contacto__titulo {
   text-align: center;
@@ -348,25 +369,80 @@ main a:hover {
   .sectionUno .sectionUno__imagen img {
     width: 90%; }
   .sectionTres .sectionTres__imagen img {
-    width: 100%; } }
+    width: 100%; }
+  .japonesDos .japonesDos__url .japonesDos__url-caja {
+    width: 100%;
+    height: 50vh; }
+    .japonesDos .japonesDos__url .japonesDos__url-caja .japonesDos__url-content {
+      width: 100%;
+      height: 100%; } }
+
+@media only screen and (max-width: 1000px) {
+  .japonesUno {
+    margin: 3% 0; }
+    .japonesUno .japonesUno__texto p {
+      font-size: 1.3rem; }
+    .japonesUno .japonesUno__texto .japonesUno__titulo {
+      padding: 0;
+      font-size: 35px; }
+  .japonesDos .japonesDos__texto .japonesDos__titulo {
+    font-size: 35px;
+    padding: 0; }
+  .japonesDos .japonesDos__url .japonesDos__url-caja {
+    width: 100%;
+    height: 35vh; }
+    .japonesDos .japonesDos__url .japonesDos__url-caja .japonesDos__url-content {
+      width: 100%;
+      height: 100%; }
+  .japonesTres {
+    margin: 5% 0; }
+    .japonesTres .japonesTres__texto {
+      padding: 0 3% 0 0; }
+      .japonesTres .japonesTres__texto p {
+        font-size: 1.3rem; }
+      .japonesTres .japonesTres__texto .japonesTres__titulo {
+        padding: 0;
+        font-size: 35px; }
+  .becas__caja .becas__caja-row .becas__imagen {
+    width: 40%; }
+    .becas__caja .becas__caja-row .becas__imagen img {
+      width: 100%; }
+  .becas__caja .becas__caja-row .becas__texto p {
+    font-size: 1.3rem; } }
 
 @media only screen and (max-width: 768px) {
   .sectionUno .sectionUno__imagen img {
     width: 60%; }
   .sectionDos .sectionDos__texto {
     order: 2; }
-    .sectionDos .sectionDos__texto h1 {
-      padding-top: 0;
-      margin-top: 0; }
   .sectionDos .sectionDos__imagen {
     order: 1; }
     .sectionDos .sectionDos__imagen img {
-      padding: 2% 0; }
+      width: 30%;
+      padding: 0; }
   .sectionTres .sectionTres__imagen {
     height: 100%;
     align-self: center; }
     .sectionTres .sectionTres__imagen img {
-      width: 65%; } }
+      width: 65%; }
+  .japonesDos .japonesDos__url {
+    order: 2; }
+    .japonesDos .japonesDos__url .japonesDos__url-caja {
+      width: 100%;
+      height: 45vh; }
+      .japonesDos .japonesDos__url .japonesDos__url-caja .japonesDos__url-content {
+        width: 100%;
+        height: 100%; }
+  .japonesDos .japonesDos__texto {
+    text-align: left;
+    order: 1;
+    margin-bottom: 3%; }
+  .becas__caja .becas__caja-row .becas__imagen {
+    order: 2;
+    width: 50%; }
+  .becas__caja .becas__caja-row .becas__texto {
+    order: 1;
+    margin-bottom: 5%; } }
 
 @media only screen and (max-width: 600px) {
   .sectionUno {
@@ -383,7 +459,17 @@ main a:hover {
       height: 100%;
       align-self: center; }
       .sectionTres .sectionTres__imagen img {
-        width: 70%; } }
+        width: 70%; }
+  .japonesDos .japonesDos__url {
+    order: 2; }
+    .japonesDos .japonesDos__url .japonesDos__url-caja {
+      width: 100%;
+      height: 35vh; }
+      .japonesDos .japonesDos__url .japonesDos__url-caja .japonesDos__url-content {
+        width: 100%;
+        height: 100%; }
+  .becas__caja .becas__caja-row .becas__imagen {
+    width: 60%; } }
 
 @media only screen and (max-width: 480px) {
   .sectionUno .sectionUno__texto h1 {
@@ -408,4 +494,12 @@ main a:hover {
   .sectionTres .sectionTres__texto p {
     font-size: 1rem; }
   .sectionTres .sectionTres__texto button a {
-    font-size: 1rem; } }
+    font-size: 1rem; }
+  .japonesDos .japonesDos__url {
+    order: 2; }
+    .japonesDos .japonesDos__url .japonesDos__url-caja {
+      width: 100%;
+      height: 30vh; }
+      .japonesDos .japonesDos__url .japonesDos__url-caja .japonesDos__url-content {
+        width: 100%;
+        height: 100%; } }
