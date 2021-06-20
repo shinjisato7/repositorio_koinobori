@@ -16,29 +16,30 @@ $redes: (
 
 footer {
   margin: 100px 0 0 0;
-}
+  font-family: "Montserrat", sans-serif;
 
-.logo_texto--color {
-  color: white;
-}
+  .logo_texto--color {
+    color: white;
+  }
 
-.footer__columna-uno {
-  p a {
-    text-decoration: none;
-    color: white;
-    font-size: 1.3rem;
+  .footer__columna-uno {
+    p a {
+      text-decoration: none;
+      color: white;
+      font-size: 1.3rem;
+    }
   }
-}
-.footer__columna-dos {
-  p a {
-    text-decoration: none;
-    color: white;
-    font-size: 1.3rem;
+  .footer__columna-dos {
+    p a {
+      text-decoration: none;
+      color: white;
+      font-size: 1.3rem;
+    }
   }
-}
-.footer__columna-tres {
-  p {
-    color: white;
-    font-size: 1.3rem;
+  .footer__columna-tres {
+    p {
+      color: white;
+      font-size: 1.3rem;
+    }
   }
 }
