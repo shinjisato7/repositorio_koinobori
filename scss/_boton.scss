@@ -1,4 +1,5 @@
 .btn-primary {
+  color: white;
   background-color: #073b4c;
   border: solid 2px #062f3d;
   transition: background-color 0.1s;
@@ -23,13 +24,4 @@
 .btn-secondary:hover {
   border: 2px solid #ec7f197a;
   background-color: #ec7f19;
-}
-
-.sectionUno a {
-  color: black;
-  transition: 0.5s;
-}
-
-main a:hover {
-  color: black;
 }

@@ -1,3 +1,19 @@
 .navbar {
   background-color: white;
+  .navbar-nav {
+    .nav-link {
+      color: black;
+    }
+    .nav-link:hover {
+      color: #ef476f;
+      text-shadow: -1px 1px #bb3856;
+    }
+    .dropdown-item {
+      font-size: 1.3rem;
+    }
+    .dropdown-item:hover {
+      color: #ef476f;
+      text-shadow: -1px 1px #bb3856;
+    }
+  }
 }
