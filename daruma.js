@@ -18,6 +18,36 @@ function amountDarumaRed(e) {
 
 const amount = document.getElementById("amount").value;
 
+let cartDarumaBlue = document.getElementById("cart_daruma-blue");
+cartDarumaBlue.addEventListener("submit", amountDarumaBlue);
+
+function amountDarumaBlue(e) {
+  e.preventDefault();
+  let amount = e.target;
+  console.log(amount.children[2].value);
+  alert(nombre + " " + apellido + "\n¡Has agregado " + amount.children[2].value + " unidades al carrito!");
+}
+
+let cartDarumaBlack = document.getElementById("cart_daruma-black");
+cartDarumaBlack.addEventListener("submit", amountDarumaBlack);
+
+function amountDarumaBlack(e) {
+  e.preventDefault();
+  let amount = e.target;
+  console.log(amount.children[2].value);
+  alert(nombre + " " + apellido + "\n¡Has agregado " + amount.children[2].value + " unidades al carrito!");
+}
+
+let cartDarumaGreen = document.getElementById("cart_daruma-green");
+cartDarumaGreen.addEventListener("submit", amountDarumaGreen);
+
+function amountDarumaGreen(e) {
+  e.preventDefault();
+  let amount = e.target;
+  console.log(amount.children[2].value);
+  alert(nombre + " " + apellido + "\n¡Has agregado " + amount.children[2].value + " unidades al carrito!");
+}
+
 class Amuletos {
   constructor(tipo, color, tamaño, precio, stock) {
     this.tipo = tipo;
