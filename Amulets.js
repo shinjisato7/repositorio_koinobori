@@ -56,14 +56,19 @@ class Products {
     this.stock = stock;
   }
 }
-const red = new Products("Daruma: ", "Rojo ", 250, " stock: 15");
-const green = new Products("Daruma: ", "Verde ", 260, " stock: 10");
-const blue = new Products("Daruma: ", "Azul ", 270, " stock: 8");
-const black = new Products("Daruma: ", "Negro ", 280, " stock: 11 ");
+const red = new Products("Daruma ", "Rojo ", 250, " stock: 15");
+const green = new Products("Daruma ", "Verde ", 260, " stock: 10");
+const blue = new Products("Daruma ", "Azul ", 270, " stock: 8");
+const black = new Products("Daruma ", "Negro ", 280, " stock: 11 ");
 
-const lucky = new Products("Omamori: ", "Suerte ", 150, " stock: 20");
-const health = new Products("Omamori: ", "Salud ", 150, " stock: 17");
-const love = new Products("Omamori: ", "Amor ", 150, " stock: 13");
+const lucky = new Products("Omamori ", "Suerte ", 150, " stock: 20");
+const health = new Products("Omamori ", "Salud ", 150, " stock: 17");
+const love = new Products("Omamori ", "Amor ", 150, " stock: 13");
+
+$("#price_daruma-red").append(`<p>$${red.precio}</p>`);
+$("#price_daruma-blue").append(`<p>$${blue.precio}</p>`);
+$("#price_daruma-green").append(`<p>$${green.precio}</p>`);
+$("#price_daruma-black").append(`<p>$${black.precio}</p>`);
 
 // const pedidoProducto = [];
 // const pedidoDaruma = [];
