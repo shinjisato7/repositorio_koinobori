@@ -7,15 +7,16 @@ if (nombre == "" || apellido == "") {
 }
 
 let cartDarumaRed = document.getElementById("cart_daruma-red");
-cartDarumaRed.addEventListener("submit", amountDarumaRed);
+cartDarumaRed.addEventListener("submit", amountDarumaRed, false);
 
 function amountDarumaRed(e) {
   e.preventDefault();
   let amount = e.target;
   console.log(amount.children[2].value);
-  alert(nombre + " " + apellido + "\n¡Has agregado " + amount.children[2].value + " unidades al carrito!");
+  if (amount.children[2].value != 0) {alert(nombre + " " + apellido + "\n¡Has agregado " + amount.children[2].value + " unidades al carrito!")}
+  else {};
 
-  console.log(red.tipo + red.color + "Pedido: " + amount.children[2].value + " Precio: " + red.precio);
+
 }
 
 let cartDarumaBlue = document.getElementById("cart_daruma-blue");
@@ -25,7 +26,9 @@ function amountDarumaBlue(e) {
   e.preventDefault();
   let amount = e.target;
   console.log(amount.children[2].value);
-  alert(nombre + " " + apellido + "\n¡Has agregado " + amount.children[2].value + " unidades al carrito!");
+  if (amount.children[2].value != 0) {alert(nombre + " " + apellido + "\n¡Has agregado " + amount.children[2].value + " unidades al carrito!")}
+  else {}
+  ;
 }
 
 let cartDarumaBlack = document.getElementById("cart_daruma-black");
@@ -35,7 +38,9 @@ function amountDarumaBlack(e) {
   e.preventDefault();
   let amount = e.target;
   console.log(amount.children[2].value);
-  alert(nombre + " " + apellido + "\n¡Has agregado " + amount.children[2].value + " unidades al carrito!");
+  if (amount.children[2].value != 0) {alert(nombre + " " + apellido + "\n¡Has agregado " + amount.children[2].value + " unidades al carrito!")}
+  else {}
+  ;
 }
 
 let cartDarumaGreen = document.getElementById("cart_daruma-green");
@@ -45,7 +50,9 @@ function amountDarumaGreen(e) {
   e.preventDefault();
   let amount = e.target;
   console.log(amount.children[2].value);
-  alert(nombre + " " + apellido + "\n¡Has agregado " + amount.children[2].value + " unidades al carrito!");
+  if (amount.children[2].value != 0) {alert(nombre + " " + apellido + "\n¡Has agregado " + amount.children[2].value + " unidades al carrito!")}
+  else {}
+  ;
 }
 
 class Products {
@@ -65,10 +72,44 @@ const lucky = new Products("Omamori ", "Suerte ", 150, " stock: 20");
 const health = new Products("Omamori ", "Salud ", 150, " stock: 17");
 const love = new Products("Omamori ", "Amor ", 150, " stock: 13");
 
-$("#price_daruma-red").append(`<p>$${red.precio}</p>`);
-$("#price_daruma-blue").append(`<p>$${blue.precio}</p>`);
-$("#price_daruma-green").append(`<p>$${green.precio}</p>`);
-$("#price_daruma-black").append(`<p>$${black.precio}</p>`);
+$("#price_daruma-red").append(`<p class="item-price">$${red.precio}</p>`);
+$("#price_daruma-blue").append(`<p class="item-price">$${blue.precio}</p>`);
+$("#price_daruma-green").append(`<p class="item-price">$${green.precio}</p>`);
+$("#price_daruma-black").append(`<p class="item-price">$${black.precio}</p>`);
+
+//Declaramos la url que vamos a usar para el GET
+const URLGET   = "https://jsonplaceholder.typicode.com/posts"
+//Declaramos la información a enviar
+const datosCarrito = "info carrito"
+
+$("#buyProduct").click(() => { 
+    $.post(URLGET, datosCarrito ,(respuesta, estado) => {
+        if(estado === "success"){alert("compra exitosa") }  
+    });
+});
+
+
+
+
+
+
+
+// //Carrito
+
+// const addCartBtn = document.querySelectorAll(`.addCartBtn`);
+// addCartBtn.forEach((addCartBtnEach) => {
+//   addCartBtnEach.addEventListener("click", addCartClicked);
+// });
+
+// function addCartClicked(e) {
+//   const button = e.target;
+//   const item = button.closest(".card-item");
+//   const itemTitle = item.querySelector(".card-title").textContent;
+//   const itemPrice = item.querySelector(".item-price").textContent;
+//   addCartItemFunction(itemTitle, itemPrice);
+// }
+
+// function addCartItemFunction(itemTitle, itemPrice) {}
 
 // const pedidoProducto = [];
 // const pedidoDaruma = [];

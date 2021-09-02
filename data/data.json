@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Daruma",
+        "email":  "Rojo",
+        "Precio": 250
+    },
+    {
+        "Producto": "Daruma",
+        "Tipo":  "Verde",
+        "Precio": 260
+    },
+    {
+        "Producto": "Daruma",
+        "Tipo":  "Azul",
+        "Precio": 270
+    },
+    {
+        "Producto": "Daruma",
+        "Tipo":  "Negro",
+        "Precio": 280
+    },
+    {
+        "Producto": "Omamori",
+        "Tipo":  "Viaje Seguro",
+        "Precio": 280
+    },
+    {
+        "Producto": "Omamori",
+        "Tipo":  "Amor",
+        "Precio": 280
+    },
+    {
+        "Producto": "Omamori",
+        "Tipo":  "Niña",
+        "Precio": 280
+    },
+    {
+        "Producto": "Omamori",
+        "Tipo":  "Familia",
+        "Precio": 280
+    },
+    {
+        "Producto": "Omamori",
+        "Tipo":  "Estudio",
+        "Precio": 280
+    },
+    {
+        "Producto": "Omamori",
+        "Tipo":  "Salud",
+        "Precio": 280
+    },
+    {
+        "Producto": "Omamori",
+        "Tipo":  "Niño",
+        "Precio": 280
+    },
+    {
+        "Producto": "Omamori",
+        "Tipo":  "Negocios",
+        "Precio": 280
+    }
+]
