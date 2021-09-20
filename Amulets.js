@@ -1,19 +1,20 @@
 //Constructor
 class Product {
-  constructor(tipo, color, precio, carrito) {
+  constructor(tipo, tag, color, precio, carrito) {
     this.tipo = tipo;
+    this.tag = tag;
     this.color = color;
     this.precio = precio;
     this.carrito = carrito;
   }
 }
-const red = new Product("daruma-rojo", " ", 250, 0);
-const green = new Product("daruma-verde", " ", 260, 0);
-const blue = new Product("daruma-azul", " ", 270, 0);
-const black = new Product("daruma-negro", " ", 280, 0);
-const lucky = new Product("omamori", "Suerte ", 150, 0);
-const health = new Product("omamori", "Salud ", 150, 0);
-const love = new Product("omamori", "Amor ", 150, 0);
+const red = new Product("Daruma", "daruma-rojo", "Rojo", 250, 0);
+const green = new Product("Daruma", "daruma-verde", "Verde", 260, 0);
+const blue = new Product("Daruma", "daruma-azul", "Azul", 270, 0);
+const black = new Product("Daruma", "daruma-negro", "Negro", 280, 0);
+const lucky = new Product("Omamori", "omamori", "Suerte ", 150, 0);
+const health = new Product("Omamori", "omamori", "Salud ", 150, 0);
+const love = new Product("Omamori", "omamori", "Amor ", 150, 0);
 
 $(".red").append(`<p class="item-price">$${red.precio}</p>`);
 $(".blue").append(`<p class="item-price">$${blue.precio}</p>`);
@@ -21,12 +22,6 @@ $(".green").append(`<p class="item-price">$${green.precio}</p>`);
 $(".black").append(`<p class="item-price">$${black.precio}</p>`);
 
 const productos = [red, green, blue, black, lucky, health, love];
-
-// for (const producto of Productos) {
-//   console.log(producto.tipo);
-//   console.log(producto.color);
-//   console.log(producto.precio);
-// }
 
 // //Mensaje de bienvenida
 // let nombre = prompt("Bienvenida a la tienda!\nIngrese su nombre");
@@ -129,9 +124,6 @@ function listarItems(productos) {
 function costoTotal(productos) {
   let costoCarrito = localStorage.getItem("costoTotal");
 
-  console.log("adasd", costoCarrito);
-  console.log(typeof costoCarrito);
-
   if (costoCarrito != null) {
     costoCarrito = parseInt(costoCarrito);
     localStorage.setItem("costoTotal", costoCarrito + productos.precio);
@@ -143,18 +135,40 @@ function costoTotal(productos) {
 function displayCart() {
   let itemsCarrito = localStorage.getItem("productosEnCarrito");
   itemsCarrito = JSON.parse(itemsCarrito);
-  let productContainer = document.querySelector(".products-container");
+  let productContainer = document.querySelector(".products");
+  let costoCarrito = localStorage.getItem("costoTotal");
 
   if (itemsCarrito && productContainer) {
     productContainer.innerHTML = "";
     Object.values(itemsCarrito).map((item) => {
       productContainer.innerHTML += `
       <div class="product"> 
-        <img src="./imagenes/${item.tipo}.png">
-        <span>${item.color}</span>
+          <i class="bi bi-x-lg"></i>
+          <img style="width: 100px" src="./imagenes/${item.tag}.png">
+          <span>${item.tipo}</span>
+          <span>${item.color}</span>
+      </div>
+      <div class="price">$${item.precio},00</div> 
+      <div class"quantity">
+          <i class="bi bi-dash-lg"></i>
+          <span>${item.carrito}</span>
+          <i class="bi bi-plus-lg"></i>
+      </div>
+      <div class="total">
+          $${item.carrito * item.precio},00
       </div>
       `;
     });
+
+    productContainer.innerHTML += `
+        <div class="basketTotalContainer">
+            <h4 class="basketTotalTitle">
+                Precio Total
+            </h4>
+            <h4 class="basketTotal">
+                $${costoCarrito},00
+            </h4>
+        `;
   }
 }
 
