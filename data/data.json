@@ -1,62 +1,14 @@
 [
-    {
-        "name": "Daruma",
-        "email":  "Rojo",
-        "Precio": 250
-    },
-    {
-        "Producto": "Daruma",
-        "Tipo":  "Verde",
-        "Precio": 260
-    },
-    {
-        "Producto": "Daruma",
-        "Tipo":  "Azul",
-        "Precio": 270
-    },
-    {
-        "Producto": "Daruma",
-        "Tipo":  "Negro",
-        "Precio": 280
-    },
-    {
-        "Producto": "Omamori",
-        "Tipo":  "Viaje Seguro",
-        "Precio": 280
-    },
-    {
-        "Producto": "Omamori",
-        "Tipo":  "Amor",
-        "Precio": 280
-    },
-    {
-        "Producto": "Omamori",
-        "Tipo":  "Niña",
-        "Precio": 280
-    },
-    {
-        "Producto": "Omamori",
-        "Tipo":  "Familia",
-        "Precio": 280
-    },
-    {
-        "Producto": "Omamori",
-        "Tipo":  "Estudio",
-        "Precio": 280
-    },
-    {
-        "Producto": "Omamori",
-        "Tipo":  "Salud",
-        "Precio": 280
-    },
-    {
-        "Producto": "Omamori",
-        "Tipo":  "Niño",
-        "Precio": 280
-    },
-    {
-        "Producto": "Omamori",
-        "Tipo":  "Negocios",
-        "Precio": 280
-    }
+  { "id": 1, "producto": "Daruma", "tipo": "Rojo", "preico": 250 },
+  { "id": 2, "producto": "Daruma", "tipo": "Verde", "precio": 260 },
+  { "id": 3, "producto": "Daruma", "tipo": "Azul", "precio": 270 },
+  { "id": 4, "producto": "Daruma", "tipo": "Negro", "precio": 280 },
+  { "id": 5, "producto": "Omamori", "tipo": "Viaje Seguro", "precio": 280 },
+  { "id": 6, "producto": "Omamori", "tipo": "Amor", "precio": 280 },
+  { "id": 7, "producto": "Omamori", "tipo": "Niña", "precio": 280 },
+  { "id": 8, "producto": "Omamori", "tipo": "Familia", "precio": 280 },
+  { "id": 9, "producto": "Omamori", "tipo": "Estudio", "precio": 280 },
+  { "id": 10, "producto": "Omamori", "tipo": "Salud", "precio": 280 },
+  { "id": 11, "producto": "Omamori", "tipo": "Niño", "precio": 280 },
+  { "id": 12, "producto": "Omamori", "tipo": "Negocios", "precio": 280 }
 ]
