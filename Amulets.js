@@ -23,16 +23,6 @@ $(".black").append(`<p class="item-price">$${black.precio}</p>`);
 
 const productos = [red, green, blue, black, lucky, health, love];
 
-// //Mensaje de bienvenida
-// let nombre = prompt("Bienvenida a la tienda!\nIngrese su nombre");
-// let apellido = prompt("Ingrese su apellido");
-// if (nombre == "" || apellido == "") {
-//   alert("Nombre invalido, ingresar correctament");
-//   let nombre = prompt("Ingrese su nombre");
-//   let apellido = prompt("Ingrese su apellido");
-// }
-
-// funcion de agregado al carrito + mensaje alert
 function amountDaruma(e) {
   e.preventDefault();
   let amount = e.target;
