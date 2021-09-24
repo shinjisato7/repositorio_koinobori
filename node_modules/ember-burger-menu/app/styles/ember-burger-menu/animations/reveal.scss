@@ -1,9 +1,0 @@
-.ember-burger-menu.bm--reveal {
-	#{$bm-menu} {
-		z-index: 1;
-
-		&::after {
-			display: none;
-		}
-	}
-}
